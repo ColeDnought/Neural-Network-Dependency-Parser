@@ -3,6 +3,7 @@ Predicts the syntactic dependency of a sentence using a Keras/Tensorflow enabled
 
 # Use:
 To evaluate the existing model (data/model.h5):
+
 The evaluation function can be called like this: "python evaluate.py data/model.h5 data/dev.conll". This will show the Labeled and Unlabeled attachment scores. Labeled attachment score is the percentage of correct (parent, relation, child) predictions. Unlabeled attachment score is the percentage of correct (parent, child) predictions.
 
 To generate the Neural Network from the ground up:
